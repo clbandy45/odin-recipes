@@ -1,0 +1,17 @@
+/*this css sheet is to be applied to all pages*/
+/* opening reset open */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* opening reset close */
+
+* {
+    background-color: rgb(242, 230, 215);
+}
