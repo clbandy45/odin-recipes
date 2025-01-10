@@ -15,3 +15,32 @@
 * {
     background-color: rgb(242, 230, 215);
 }
+
+.recipe-page-ingredients li {
+    display: list-item;
+    list-style: disc;
+    margin: 0.25em 0.5em 0.25em 1.5em;
+}
+
+.recipe-page-steps li {
+    display: list-item;
+    list-style: decimal;
+    margin: 0.25em 0.5em 0.25em 1.5em;
+}
+
+.button-return-home {
+    border: none;
+    padding: 0.5em;
+    margin: 0.5em;
+    float: right;
+    border: 2px solid black;
+}
+
+.button-return-home, a {
+    background-color: rgb(236, 236, 236);
+}
+
+.recipe-img {
+    margin: auto;
+    display: block;
+}
