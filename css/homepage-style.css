@@ -4,8 +4,9 @@
     padding: 0.5em;
     text-align: center;
     border: 5px solid black ;
-    margin: 10px 25% 20px;
+    margin: 10px auto 20px;
     width: 300px;
+    background-color: rgb(69, 247, 176);
 }
 
 .homepage-description {
@@ -18,12 +19,28 @@
     text-align: center;
 }
 
-div {
+li {
     list-style-type: none;
     display: inline-flex;
     border: 5px solid black;
     width: 150px;
     height: 100px;
     margin: 1em;
+    align-items: center;
+}
+ 
+li, a {
+    background-color: rgb(152, 217, 254);
 }
 
+.closing-salute {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Brush Script MT';
+    margin-top: 0.5em;
+}
+
+.recipe-two {
+    padding: 2px;
+}
