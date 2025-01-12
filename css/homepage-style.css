@@ -14,25 +14,31 @@
     margin: 10px;
 }
 
-.recipe-list-box {
-    padding: auto;
-    text-align: center;
+.flex-container {
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 li {
     list-style-type: none;
-    display: inline-flex;
     border: 5px solid black;
+    display: flex;
     width: 150px;
     height: 100px;
-    margin: 1em;
     align-items: center;
+    flex-wrap: wrap;
 }
  
 li, a {
     background-color: rgb(152, 217, 254);
 }
 
+a {
+    /* border: 2px solid black; */
+    text-align: center;
+}
 .closing-salute {
     text-align: center;
     font-weight: 700;
